@@ -9,5 +9,17 @@ export default {
   },
   updateEntites(id, data) {
     return coreApiClient.sendRequest("patch", `/entities?id=${id}`, data)
-  }
+  },
+  deleteEntity(id) {
+    return coreApiClient.sendRequest("delete", `/entities?id=${id}`)
+  },
+  deleteRoom(id) {
+    return coreApiClient.sendRequest("delete", `/rooms?id=${id}`)
+  },
+  createRoom(data) {
+    return coreApiClient.sendRequest("post", "/rooms", data)
+  },
+  createEntity(data) {
+    return coreApiClient.sendRequest("post", "/entities", data)
+  },
 }

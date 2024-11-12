@@ -7,15 +7,21 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "engines" : { 
-    "npm" : ">=8",
-    "node" : ">=18"
+  "engines": {
+    "npm": ">=8",
+    "node": ">=18"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@tailwindcss/forms": "^0.4.0",
     "animate.css": "^4.1.1",
     "axios": "^0.26.0",
     "core-js": "^3.8.3",
+    "lodash": "^4.17.21",
     "maska": "^1.5.0",
     "vue": "^3.2.13",
     "vue-advanced-cropper": "^2.8.0",

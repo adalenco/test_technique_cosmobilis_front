@@ -3,3 +3,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container-box-room {
+  @apply p-4 bg-orange-600 shadow-inner rounded-lg border border-gray-200;
+}
+
+.container-box-no-room {
+  @apply p-4 bg-blue-700 shadow-lg rounded-lg border border-gray-200;
+}
+
+.title-heading {
+  @apply text-xl font-semibold text-yellow-50 mb-2;
+}
+
+.input-field {
+  @apply block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50;
+}
+
+.switch-wrapper {
+  @apply flex items-center;
+}
+
+.status-text {
+  @apply mr-2 text-sm font-semibold;
+}
+
+.range-slider {
+  @apply w-full h-2 bg-gray-200 rounded-lg appearance-none focus:outline-none focus:ring focus:ring-indigo-500;
+}
